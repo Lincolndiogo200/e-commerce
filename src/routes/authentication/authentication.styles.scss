@@ -1,0 +1,31 @@
+.authenticantion-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: 30px auto;
+}
+
+.link {
+  cursor: pointer;
+  font-size: medium;
+  &:hover {
+    color: blue;
+  }
+}
+
+.content {
+  display: flex;
+  span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.buttons-sign-in {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}

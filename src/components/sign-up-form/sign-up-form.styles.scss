@@ -1,0 +1,51 @@
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  h2 {
+    margin: 10px 0;
+  }
+}
+
+.sign-up-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-ver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-left {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.15);
+    fill: red;
+  }
+}
+
+.anonimous {
+  width: 24px;
+  height: 24px;
+}
+
+.form-sign-up {
+  width: 400px;
+}
+
+.button-sign-up {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
